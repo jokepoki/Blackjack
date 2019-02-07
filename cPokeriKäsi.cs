@@ -126,16 +126,16 @@ namespace Korttisimulaatio
                     jakaja.show();
                     System.Threading.Thread.Sleep(3000);
                 } while (jakaja.arvoasd < 17);
-                System.Threading.Thread.Sleep(2000);
+                
                 Console.WriteLine();
                 Console.WriteLine("Pelaajan käden arvo on " + pelaaja.arvoasd);
                 Console.WriteLine("Jakajan käden arvo on " + jakaja.arvoasd);
                 Console.WriteLine();
-                System.Threading.Thread.Sleep(2000);
+                System.Threading.Thread.Sleep(3000);
                 if (jakaja.arvoasd > pelaaja.arvoasd && jakaja.arvoasd < 22) { Console.WriteLine("Hävisit pelin"); }
                 if (jakaja.arvoasd < pelaaja.arvoasd || jakaja.arvoasd > 22 && pelaaja.arvoasd < 22) { Console.WriteLine("Voitit pelin"); }
                 if (jakaja.arvoasd == pelaaja.arvoasd && jakaja.arvoasd < 22 && pelaaja.arvoasd < 22) { Console.WriteLine("Tasapeli"); }
-                Console.ReadKey();
+                
             }
         }
 

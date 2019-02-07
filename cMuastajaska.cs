@@ -24,6 +24,7 @@ namespace Korttisimulaatio
        
         public void peli(cKorttipakka pakka)
         {
+            
             pakka.muutablackjackiks();
             Console.WriteLine("Tervetuloa pelaamaan Blackjackia");
             Console.WriteLine();
@@ -44,6 +45,9 @@ namespace Korttisimulaatio
             jakaja.arvo();
             Console.WriteLine();
             pelaaja.tilanne(jakaja,pakka,pelaaja);
+            Console.WriteLine();
+            
+            
 
 
 
