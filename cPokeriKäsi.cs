@@ -135,6 +135,7 @@ namespace Korttisimulaatio
                 if (jakaja.arvoasd > pelaaja.arvoasd && jakaja.arvoasd < 22) { Console.WriteLine("Hävisit pelin"); }
                 if (jakaja.arvoasd < pelaaja.arvoasd || jakaja.arvoasd > 22 && pelaaja.arvoasd < 22) { Console.WriteLine("Voitit pelin"); }
                 if (jakaja.arvoasd == pelaaja.arvoasd && jakaja.arvoasd < 22 && pelaaja.arvoasd < 22) { Console.WriteLine("Tasapeli"); }
+                Console.ReadKey();
                 
             }
         }
