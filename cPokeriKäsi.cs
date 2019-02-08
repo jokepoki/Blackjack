@@ -132,8 +132,8 @@ namespace Korttisimulaatio
                 Console.WriteLine("Jakajan käden arvo on " + jakaja.arvoasd);
                 Console.WriteLine();
                 System.Threading.Thread.Sleep(3000);
-                if (jakaja.arvoasd > pelaaja.arvoasd && jakaja.arvoasd < 22) { Console.WriteLine("Hävisit pelin"); }
-                if (jakaja.arvoasd < pelaaja.arvoasd || jakaja.arvoasd > 22 && pelaaja.arvoasd < 22) { Console.WriteLine("Voitit pelin"); }
+                if (jakaja.arvoasd > pelaaja.arvoasd && jakaja.arvoasd < 21) { Console.WriteLine("Hävisit pelin"); }
+                if (jakaja.arvoasd < pelaaja.arvoasd || jakaja.arvoasd > 21 && pelaaja.arvoasd < 22) { Console.WriteLine("Voitit pelin"); }
                 if (jakaja.arvoasd == pelaaja.arvoasd && jakaja.arvoasd < 22 && pelaaja.arvoasd < 22) { Console.WriteLine("Tasapeli"); }
                 Console.ReadKey();
                 

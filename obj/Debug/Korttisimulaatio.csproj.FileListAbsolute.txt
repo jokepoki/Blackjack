@@ -7,7 +7,6 @@ p:\userdata\visual studio 2015\Projects\Korttisimulaatio\Korttisimulaatio\obj\De
 C:\Users\Vladimir Cyka\Downloads\Korttisimulaatio\Korttisimulaatio\bin\Debug\Korttisimulaatio.exe.config
 C:\Users\Vladimir Cyka\Downloads\Korttisimulaatio\Korttisimulaatio\bin\Debug\Korttisimulaatio.exe
 C:\Users\Vladimir Cyka\Downloads\Korttisimulaatio\Korttisimulaatio\bin\Debug\Korttisimulaatio.pdb
-C:\Users\Vladimir Cyka\Downloads\Korttisimulaatio\Korttisimulaatio\obj\Debug\Korttisimulaatio.csprojAssemblyReference.cache
 C:\Users\Vladimir Cyka\Downloads\Korttisimulaatio\Korttisimulaatio\obj\Debug\Korttisimulaatio.csproj.CoreCompileInputs.cache
 C:\Users\Vladimir Cyka\Downloads\Korttisimulaatio\Korttisimulaatio\obj\Debug\Korttisimulaatio.exe
 C:\Users\Vladimir Cyka\Downloads\Korttisimulaatio\Korttisimulaatio\obj\Debug\Korttisimulaatio.pdb
